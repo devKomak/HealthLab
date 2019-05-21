@@ -1,4 +1,4 @@
-<ion-header>
+<!--<ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -20,4 +20,28 @@
   <div *ngIf="selectedItem" padding>
     You navigated here from <b>{{selectedItem.title}}</b>
   </div>
-</ion-content>
+</ion-content> -->
+<ion-header>
+    <ion-navbar>
+          <ion-icon name="alarm"></ion-icon>
+          <ion-icon name="wifi"></ion-icon>
+          <ion-icon name="battery-full"></ion-icon>
+          <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+      <ion-title>HealthLab</ion-title>
+    </ion-navbar>
+</ion-header>
+    <ion-content>
+        <ion-card style="background-color: #ecf0d6">
+            <ion-card-content>
+              <div style="width: 50%">
+                  <ion-input placeholder="Type medicine name..."></ion-input>
+                </div>
+              <div>
+                  <ion-icon name="search"></ion-icon>
+              </div>
+                
+            </ion-card-content>
+          </ion-card>
+    </ion-content>

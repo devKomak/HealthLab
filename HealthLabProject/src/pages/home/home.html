@@ -1,18 +1,36 @@
 <ion-header>
   <ion-navbar>
+    <ion-icon id="icon-alarm" name="alarm"></ion-icon>
+    <ion-icon id ="icon-wifi" name="wifi"></ion-icon>
+    <ion-icon id="icon-battery-full" name="battery-full"></ion-icon>
+  </ion-navbar>
+  <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title id="HL-title">HealthLab</ion-title>
   </ion-navbar>
 </ion-header>
+<ion-content style="background-color: #3aebb3" padding>
+  <ion-card style="background-color: #9cb807">
+      <ion-card-header>
+        <ion-card-title>Zjedz posiłek</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+      <ion-icon name="restaurant"></ion-icon> 
+        Kanapka z serem
+      </ion-card-content>
+    </ion-card>
 
-<ion-content padding>
-  <h3>Health Lab</h3>
-
-  <p>
-    Start your new healthy life.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <ion-card style="background-color: #9cb807">
+        <ion-card-header>
+          <ion-card-title>Weź lek</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+        <ion-icon name="pulse"></ion-icon> 
+          Nazwa leku
+        </ion-card-content>
+      </ion-card>
 </ion-content>
