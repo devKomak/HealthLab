@@ -6,7 +6,7 @@ import { DomSanitizer } from '@angular/platform-browser';
  * See https://angular.io/api/core/Pipe for more info on Angular Pipes.
  */
 @Pipe({
-  name: 'youtube',
+  name: 'youtubepipe',
 })
 export class YoutubePipe implements PipeTransform {
   

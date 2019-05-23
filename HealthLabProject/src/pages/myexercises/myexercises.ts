@@ -9,13 +9,13 @@ export class MyExercisesPage {
 
   videos: any[] = {
       {
-        title: 'Ćwiczenia wzmacniające kręgosłup',
-        video: 'https://www.youtube.com/watch?v=w33yS-OWRR4',
+        title: 'Ćwiczenia wzmacniające kręgosłup';
+        video: 'https://www.youtube.com/watch?v=w33yS-OWRR4';
       }
   }
 
-  constructor(public navCtrl: NavController){
-    
+  constructor(public NavController){
+
   }
 
 }
