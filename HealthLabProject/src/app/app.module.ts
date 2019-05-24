@@ -17,7 +17,7 @@ import { AngularFireAuthModule } from "angularfire2/auth";
   declarations: [
     MyApp,
     ListPage,
-    HomePage,
+//    HomePage,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +28,7 @@ import { AngularFireAuthModule } from "angularfire2/auth";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
+   // HomePage,
     ListPage
   ],
   providers: [
