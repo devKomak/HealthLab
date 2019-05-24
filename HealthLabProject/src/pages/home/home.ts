@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 /**
  * Generated class for the HomePage page.
@@ -15,11 +16,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(private ofAuth: AngularFireAuth, private toast: ToastController,
+    public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+  ionViewWillLoad() {
+    this.ofAuth.authState.subscribe(data => {
+      if(data.email && data.uid) {
+      this.toast.create({
+        message: 'Welcome to HealthLab, ${data.email}',
+        duration: 3000
+      }).present();
+    }
+      else {
+        this.toast.create({
+          message: 'Could not find authentication details',
+          duration: 3000
+        }).present();
+      }
+    })
   }
-
 }
