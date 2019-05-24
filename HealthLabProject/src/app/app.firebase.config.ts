@@ -1,4 +1,4 @@
-export const FIREBASE_CONFIG = var config {
+export const FIREBASE_CONFIG = {
     apiKey: "AIzaSyCY38kKT31W-0fuuMUsxaODMUsy9p6mQ5s",
     authDomain: "healthlab-35722.firebaseapp.com",
     databaseURL: "https://healthlab-35722.firebaseio.com",
