@@ -23,7 +23,7 @@ import { AngularFireModule } from "angularfire2";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
+    //HomePage,
     ListPage
   ],
   providers: [
