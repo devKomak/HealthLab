@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DishesPage } from '../pages/dishes/dishes';
 import { LiquidsPage } from '../pages/liquids/liquids';
 import { MyExercisesPage } from '../pages/myexercises/myexercises';
+import { YoutubePipe } from '../pipes/youtube/youtube';
 
 
 @NgModule({
@@ -21,8 +22,8 @@ import { MyExercisesPage } from '../pages/myexercises/myexercises';
     MedicinesPage, 
     LiquidsPage,
     DishesPage, 
-    MyExercisesPage
-
+    MyExercisesPage,
+    YoutubePipe
   ],
   imports: [
     BrowserModule,
