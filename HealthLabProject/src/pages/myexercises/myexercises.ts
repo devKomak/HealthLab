@@ -11,6 +11,10 @@ export class MyExercisesPage {
     {
       title: 'Ćwiczenia wzmacniające kręgosłup',
       video: 'https://www.youtube.com/watch?v=w33yS-OWRR4',
+    },
+    {
+      title: '5 prostych ćwiczeń',
+      video: 'https://www.youtube.com/watch?v=sDwxXZgfYfQ',
     }
 }
 
