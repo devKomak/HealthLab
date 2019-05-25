@@ -8,9 +8,13 @@
 </ion-header>
 
 <ion-content padding>
-    <p>
-
-
-    </p>
+    <ion-card *ngFor="let video of videos">
+        <ion-card-header>
+            {{video.ion-title}}
+        </ion-card-header>
+        <ion-card-content>
+            <iframe width="560" height="315" src="video.video" frameborder="0" allowfullscreen></iframe>
+        </ion-card-content>
+    </ion-card>
 </ion-content>
 
