@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
-import { HomePage } from '../pages/home/home';
+//import { HomePage } from '../pages/home/home';
 import { MyApp } from './app.component';
 import { ListPage } from '../pages/list/list';
 import { FIREBASE_CONFIG } from "./app.firebase.config";
