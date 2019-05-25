@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController} from 'ionic-angular';
 
 @Component({
   selector: 'dishes',
@@ -7,4 +7,5 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class DishesPage {
 
+  constructor(public navCtrl: NavController){}
 }
