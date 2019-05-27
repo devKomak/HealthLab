@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-You can use the [editor on GitHub](https://github.com/devKomak/HealthLab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<title>Health Lab</title>
+</head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/ZdebK/HealthLab">View On GitHub</a></li>
+        </nav>
+      </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <h1 id="header-1">Tytuł projektu</h1>
+<p>Health Lab</p>
+<h1 id="header-1">Opis projektu</h1>
+<p>Nasza aplikacja ma na celu wspomaganie procesu kontroli zdrowia. Będzie dedykowana głównie dla osób starszych lub zabieganych i przytłoczonych nadmiarem obowiązków. W aplikacji będzie można utworzyć własny harmonogram przyjmowania leków wraz z automatycznym ustawieniem przypomnień. Aplikacja oferowała będzie również sprawdzanie składników leków przy wykorzystaniu API Medical Dictionary. Innymi funkcjonalnościami bedą: ustawianie diety; kontrola spożywania płynów lub posiłków.</p>
 
-```markdown
-Syntax highlighted code block
+<h3 id="header-3">Główne funkcjonalności</h3>
+<ul>
+<li>FUNKCJONALNOŚĆ 1</li>
 
-# Header 1
-## Header 2
-### Header 3
+<li>FUNKCJONALNOŚĆ 2</li>
 
-- Bulleted
-- List
+<li>FUNKCJONALNOŚĆ 3</li>
 
-1. Numbered
-2. List
+<li>FUNKCJONALNOŚĆ 4</li>
+</ul>
 
-**Bold** and _Italic_ and `Code` text
+<h1 id="header-1">Skład zespołu projektowego</h1>
+<ul>
+<li>Katarzyna Zdeb WZISS2-1212 195430  – kierownik projektu</li>
+<li>Bartłomiej Odrobina WZISS2-1212 194157</li>
+<li>Konrad Marszałek WZISS2-1212 193873 </li>
+<li>Beniamin Bieniek WZISS2-1212 192270 </li>
+</ul>
 
-[Link](url) and ![Image](src)
-```
+<h1 id="header-1">Link do systemu zarządzania projektem: <a href="https://trello.com/b/4DTkket2/healthlab">Trello</a></h1>
+<h1 id="header-1">Link do witryny aplikacji: <a href=""> Witryna aplikacji</a> </h1>
+<h1 id="header-1">Prototyp projektu: <a href=""> Prototyp </a></h1>
+<h1 id="header-1">Raport prac: <a href=""> Raport prac każdego członka zespołu </a></h1>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devKomak/HealthLab/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    
+  </body>
+</html>
