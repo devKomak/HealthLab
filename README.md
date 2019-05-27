@@ -1,7 +1,7 @@
 
 <body>
 <h1 id="header-1">Nazwa projektu</h1>
-<h1 id="header-2">Health Lab</h1>
+<h1 id="header-5">Health Lab</h1>
 <h1 id="header-1">Opis projektu</h1>
 <p>Nasza aplikacja ma na celu wspomaganie procesu kontroli zdrowia. Będzie dedykowana głównie dla osób starszych lub zabieganych i przytłoczonych nadmiarem obowiązków. W aplikacji będzie można utworzyć własny harmonogram przyjmowania leków wraz z automatycznym ustawieniem przypomnień. Aplikacja oferowała będzie również sprawdzanie składników leków przy wykorzystaniu API Medical Dictionary. Innymi funkcjonalnościami bedą: ustawianie diety; kontrola spożywania płynów lub posiłków.</p>
 
