@@ -1,21 +1,5 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Health Lab</title>
-</head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/ZdebK/HealthLab">View On GitHub</a></li>
-        </nav>
-      </div>
-
-
-
-        <h1 id="header-1">Tytuł projektu</h1>
+<body>
 <p>Health Lab</p>
 <h1 id="header-1">Opis projektu</h1>
 <p>Nasza aplikacja ma na celu wspomaganie procesu kontroli zdrowia. Będzie dedykowana głównie dla osób starszych lub zabieganych i przytłoczonych nadmiarem obowiązków. W aplikacji będzie można utworzyć własny harmonogram przyjmowania leków wraz z automatycznym ustawieniem przypomnień. Aplikacja oferowała będzie również sprawdzanie składników leków przy wykorzystaniu API Medical Dictionary. Innymi funkcjonalnościami bedą: ustawianie diety; kontrola spożywania płynów lub posiłków.</p>
